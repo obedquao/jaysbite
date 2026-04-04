@@ -23,7 +23,7 @@ export default function Pastries({ name, image, price, details }) {
 
         {/* Details */}
         <p
-          className={`text-sm text-gray-700 font-poppins transition-all duration-300 ${
+          className={`text-lg text-gray-700 font-poppins transition-all duration-300 ${
             !isExpanded && "line-clamp-2"
           }`}
         >

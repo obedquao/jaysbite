@@ -17,6 +17,12 @@ const snacks = [
     price: "GH₵ 60",
     details: "Available in stock",
   },
+  {
+    name: "Cookies",
+    image: "/images/products/cookie.webp",
+    price: "GH₵ 40",
+    details: "Available in stock",
+  },
 
   {
     name: "Doughnuts (12 pieces)",
@@ -29,12 +35,6 @@ const snacks = [
     image: "/images/products/doughnut24.webp",
     price: "GH₵ 250",
     details: "Pre-Order only",
-  },
-  {
-    name: "Cookies",
-    image: "/images/products/cookie.webp",
-    price: "GH₵ 40",
-    details: "Available in stock",
   },
 ];
 export default snacks;
