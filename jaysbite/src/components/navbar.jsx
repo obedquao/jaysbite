@@ -116,9 +116,9 @@ export default function Navbar() {
           <ul className="flex flex-col gap-4 text-sm font-bold">
             {[
               { label: "Home", href: "#home" },
-              { label: "About Us", href: "#aboutus" },
+              { label: "About Us", href: "#about" },
               { label: "Menu", href: "#menu" },
-              { label: "Our Upcoming Class", href: "#training" },
+              { label: "Custom Order", href: "#custom" },
               { label: "Contact", href: "#contact" },
             ].map((item) => (
               <li key={item.label}>
@@ -130,7 +130,7 @@ export default function Navbar() {
             <a
               onClick={() => setMenuOpen(false)}
               className="mt-2 text-center bg-purple-800 text-white rounded-lg p-3"
-              href="#aboutus"
+              href="#about"
             >
               About Us
             </a>

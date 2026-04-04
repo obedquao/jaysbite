@@ -22,7 +22,7 @@ export default function CustomOrder() {
   };
 
   return (
-    <section id="custom" className="py-8">
+    <section id="custom" className="py-20">
       {/* TITLE */}
 
       <motion.h1

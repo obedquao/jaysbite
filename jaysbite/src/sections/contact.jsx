@@ -3,7 +3,7 @@ import { IoPhonePortrait } from "react-icons/io5";
 import { motion } from "motion/react";
 export default function Contact() {
   return (
-    <section className="py-8 md:py-32">
+    <section id="contact" className="py-8 md:py-32">
       <motion.h1
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
