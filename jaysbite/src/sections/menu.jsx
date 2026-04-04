@@ -151,7 +151,7 @@ export default function Menu() {
             className="max-h-64 w-full md:w-150 px-5 mx-auto rounded-2xl flex justify-center mt-16 overflow-hidden"
           >
             <img
-              src="/images/bentopackages.webp"
+              src="/images/bento.webp"
               alt="Bento Packages"
               className="object-fill h-full w-full"
             />
