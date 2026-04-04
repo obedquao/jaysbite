@@ -1,10 +1,14 @@
 import FlavorDesign from "../components/flavordesign";
 import info from "../assets/data/flavors";
 import CakeItem from "../components/item";
+import Pastries from "../components/pastries";
+import pastriesData from "../assets/data/pastries";
 import snacks from "../assets/data/snacks";
+import cupcakeData from "../assets/data/cupcake";
 import bentoPackage from "../assets/data/bentopackage";
 import kids from "../assets/data/kids";
 import randomInspo from "../assets/data/random";
+
 import { motion } from "motion/react";
 
 export default function Menu() {
@@ -87,6 +91,43 @@ export default function Menu() {
             className="grid grid-cols-2 md:grid-cols-4 mx-2 md:mx-18 border rounded-lg border-gray-200 divide-x divide-y divide-gray-200 bg-gray-50 mt-10"
           >
             {snacks.map((itemData) => (
+              <motion.div variants={item} key={itemData.name}>
+                <CakeItem
+                  name={itemData.name}
+                  image={itemData.image}
+                  price={itemData.price}
+                  details={itemData.details}
+                />
+              </motion.div>
+            ))}
+          </motion.div>
+        </section>
+
+        {/* cupcake */}
+
+        <section>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+            className="max-h-64 w-full md:w-150 px-5 mx-auto rounded-2xl flex justify-center mt-16 overflow-hidden"
+          >
+            <img
+              src="/images/cupcakebanner.webp"
+              alt="Cupcake Packages"
+              className="object-fill h-full w-full"
+            />
+          </motion.div>
+
+          <motion.div
+            variants={container}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true }}
+            className="grid grid-cols-2 md:grid-cols-4 mx-2 md:mx-18 border rounded-lg border-gray-200 divide-x divide-y divide-gray-200 bg-gray-50 mt-10"
+          >
+            {cupcakeData.map((itemData) => (
               <motion.div variants={item} key={itemData.name}>
                 <CakeItem
                   name={itemData.name}
@@ -262,6 +303,24 @@ export default function Menu() {
               Send us a Dm on WhatsApp
             </a>
           </motion.p>
+          <motion.div
+            variants={container}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true }}
+            className="grid grid-cols-1 md:grid-cols-4 mx-2 md:mx-18 border rounded-lg border-gray-200 divide-x divide-y divide-gray-200 bg-gray-50 mt-10"
+          >
+            {pastriesData.map((itemData) => (
+              <motion.div variants={item} key={itemData.name}>
+                <Pastries
+                  name={itemData.name}
+                  image={itemData.image}
+                  price={itemData.price}
+                  details={itemData.details}
+                />
+              </motion.div>
+            ))}
+          </motion.div>
         </section>
       </section>
     </section>

@@ -3,22 +3,22 @@ import React, { useState } from "react";
 const CakeOrderCard = () => {
   const PRICE_MATRIX = {
     "5 inches": {
+      "1 layer": 150,
+      "2 layers": 300,
+      "3 layers": 400,
+      "4 layers": 500,
+    },
+    "6 inches": {
       "1 layer": 250,
       "2 layers": 450,
       "3 layers": 650,
-      "4 layers": 850,
-    },
-    "6 inches": {
-      "1 layer": 300,
-      "2 layers": 600,
-      "3 layers": 800,
-      "4 layers": 1100,
+      "4 layers": 800,
     },
     "7 inches": {
       "1 layer": 350,
-      "2 layers": 700,
-      "3 layers": 900,
-      "4 layers": 1250,
+      "2 layers": 600,
+      "3 layers": 800,
+      "4 layers": 1050,
     },
     "8 inches": {
       "1 layer": 400,

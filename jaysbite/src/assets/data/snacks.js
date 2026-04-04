@@ -1,39 +1,39 @@
 const snacks = [
   {
     name: "CAKE PARFAIT",
-    image: "#",
+    image: "/images/products/cakeparfait.webp",
     price: "GH₵ 55",
     details: "Available in stock",
   },
   {
     name: "CAKE SlICE",
-    image: "#",
+    image: "/images/products/cakeslice.webp",
     price: "GH₵ 50",
     details: "Available in stock",
   },
   {
     name: "CAKE LOAF",
-    image: "#",
+    image: "/images/products/cakeloaf.webp",
     price: "GH₵ 60",
     details: "Available in stock",
   },
 
   {
-    name: "Doughnuts (6 pieces)",
-    image: "#",
-    price: "GH₵ 90",
-    details: "Available in stock",
-  },
-  {
     name: "Doughnuts (12 pieces)",
-    image: "#",
+    image: "/images/products/doughnut12.webp",
     price: "GH₵ 180",
-    details: "Available in stock",
+    details: "Pre-Order only",
   },
   {
     name: "Doughnuts (18 pieces)",
-    image: "#",
+    image: "/images/products/doughnut24.webp",
     price: "GH₵ 250",
+    details: "Pre-Order only",
+  },
+  {
+    name: "Cookies",
+    image: "/images/products/cookie.webp",
+    price: "GH₵ 40",
     details: "Available in stock",
   },
 ];
