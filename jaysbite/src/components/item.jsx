@@ -14,7 +14,7 @@ export default function CakeItem({ name, image, price, details }) {
         <p className="text-green-600  text-sm">{details}</p>
         <h3 className="text-secondary ">{price}</h3>
         <a
-          href={`https://wa.me/233248967727?text=${encodeURIComponent(message)}`}
+          href={`https://wa.me/233550280582?text=${encodeURIComponent(message)}`}
           className="border border-purple-800 bg-purple-800 rounded-2xl py-1 px-5 text-base text-center text-white hover:cursor-pointer hover:text-white hover:bg-purple-800 transition-all ease-out "
         >
           Order Now
