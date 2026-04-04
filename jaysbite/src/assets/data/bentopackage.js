@@ -2,7 +2,7 @@ const bentoPackage = [
   {
     name: "Bento Cake 4 inches",
     image: "/images/products/bento4inch.webp",
-    price: "GH₵ 150",
+    price: "GH₵ 120",
     details: "Only Bento Cake",
   },
   {
