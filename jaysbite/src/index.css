@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Calistoga&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+@font-face {
+  font-family: recoleta;
+  src: url("./assets/fonts/recoletaalt-bold.otf");
+}
+@import "tailwindcss";
+
+@theme {
+  --font-bebas: "Bebas Neue", sans-serif;
+  --font-calistoga: "Calistoga", cursive;
+  --font-inter: "Inter", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+  --font-recoleta: "recoleta", serif;
+}
