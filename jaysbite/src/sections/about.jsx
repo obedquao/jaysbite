@@ -98,6 +98,106 @@ export default function About() {
           </p>
         </motion.div>
       </section>
+      <section className="py-24 px-6 lg:px-24 bg-slate-50 overflow-hidden">
+        <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+          {/* CEO Image Side */}
+          <div className="relative group">
+            {/* Abstract Background Elements */}
+            <div className="absolute -top-12 -left-12 w-64 h-64 bg-purple-200 rounded-full blur-3xl opacity-40 group-hover:opacity-60 transition-opacity"></div>
+            <div className="absolute -bottom-12 -right-12 w-64 h-64 bg-pink-100 rounded-full blur-3xl opacity-40"></div>
+
+            {/* Main Image Container */}
+            <div className="relative z-10 rounded-[2.5rem] overflow-hidden shadow-2xl transform transition-transform duration-500 hover:scale-[1.02]">
+              <img
+                src="/images/ceoimage.webp"
+                alt="Juliet Numanyavor - Founder of Jay's Bite"
+                className="w-full aspect-[4/5] object-cover"
+              />
+
+              {/* Floating Award Badge */}
+              <div className="absolute bottom-6 right-6 bg-white/90 backdrop-blur-md p-4 rounded-2xl shadow-lg border border-purple-100 max-w-[180px]">
+                <div className="flex items-center gap-2 mb-1">
+                  <span className="text-xl">🏆</span>
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-purple-600">
+                    Double Honoree
+                  </span>
+                </div>
+                <p className="text-xs font-semibold text-gray-800 leading-tight">
+                  Overall Best Graduating Student & Academic Excellence
+                </p>
+              </div>
+            </div>
+
+            {/* Decorative Border Frame */}
+            <div className="absolute inset-0 border-2 border-purple-200 rounded-[2.5rem] translate-x-4 translate-y-4 -z-10"></div>
+          </div>
+
+          {/* CEO Text Side */}
+          <div className="space-y-6">
+            <div>
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-100 text-purple-700 text-xs font-bold uppercase tracking-widest mb-4">
+                <span className="relative flex h-2 w-2">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-purple-500"></span>
+                </span>
+                Meet the Founder
+              </div>
+
+              <h3 className="text-4xl md:text-5xl font-black text-gray-900 leading-tight mb-2">
+                Juliet Numanyavor
+              </h3>
+
+              <p className="text-lg font-medium text-purple-600/80 italic">
+                Founder & Master Baker, Jay's Bite
+              </p>
+            </div>
+
+            <div className="space-y-4 text-gray-600 leading-relaxed font-inter text-center md:text-left">
+              <p className="text-gray-600 leading-relaxed mb-4">
+                Juliet Numanyavor is the founder and driving force behind Jay’s
+                Bite. A self-taught baker with a deep passion for creating
+                delicious pastries, cakes, and meals, Juliet began experimenting
+                in 2022 and later turned her love for baking into a thriving
+                business.
+              </p>
+
+              <p className="text-gray-600 leading-relaxed mb-4">
+                While balancing university life, she dedicated an entire year to
+                perfecting her craft through consistent practice and creativity.
+                Her determination led her to enroll in a Beginner-to-Masterclass
+                program at Akagre Bakery School in 2025, where she combined
+                professional techniques with her natural baking talent.
+              </p>
+
+              <p className="text-gray-600 leading-relaxed">
+                Her excellence earned her two major honors at graduation:
+                <span className="font-semibold text-gray-800">
+                  {" "}
+                  Overall Best Graduating Student{" "}
+                </span>
+                and
+                <span className="font-semibold text-gray-800">
+                  {" "}
+                  Best in Academics.
+                </span>
+                Today, Jay’s Bite continues to grow as a brand known for
+                quality, affordability, and heartfelt connections with
+                customers.
+              </p>
+            </div>
+
+            {/* Signature/Call to action */}
+            <div className="pt-6">
+              <div className="flex items-center gap-4">
+                <div className="h-px w-12 bg-purple-300"></div>
+                <span className="font-serif text-2xl text-gray-800">
+                  Juliet N.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
   );
 }

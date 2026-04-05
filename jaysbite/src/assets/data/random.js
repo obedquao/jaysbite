@@ -35,5 +35,29 @@ const randomInspo = [
     price: "GH₵ 650",
     details: "Available Only On Pre-Order",
   },
+  {
+    name: "6 inches 2 layers",
+    image: "/images/products/random1.webp",
+    price: "GH₵ 450",
+    details: "Available Only On Pre-Order",
+  },
+  {
+    name: " 5 inches 3 layers",
+    image: "/images/products/random2.webp",
+    price: "GH₵ 400",
+    details: "Available Only On Pre-Order",
+  },
+  {
+    name: "5 inches3 layers",
+    image: "/images/products/random3.webp",
+    price: "GH₵ 400",
+    details: "Available Only On Pre-Order",
+  },
+  {
+    name: "6 inches 4 layers",
+    image: "/images/products/random4.webp",
+    price: "GH₵ 750",
+    details: "Available Only On Pre-Order",
+  },
 ];
 export default randomInspo;

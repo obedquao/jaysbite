@@ -20,7 +20,7 @@ const kids = [
   {
     name: "6 inches 4 layers",
     image: "/images/products/kidcake700.webp",
-    price: "GH₵ 750",
+    price: "GH₵ 700",
     details: "Includes different cake flavors",
   },
 ];
