@@ -59,7 +59,7 @@ export default function CustomOrder() {
         className="flex justify-center"
       >
         <a
-          href="https://wa.me/1234567890"
+          href="https://wa.me/233550280582"
           target="_blank"
           rel="noopener noreferrer"
           className="px-5 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 inline-block mb-10"

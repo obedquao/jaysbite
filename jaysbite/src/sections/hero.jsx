@@ -46,21 +46,23 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          <motion.button
+          <motion.a
             whileHover={{ y: -4 }}
             whileTap={{ scale: 0.95 }}
+            href="#menu"
             className="md:mt-8 bg-purple-800 px-8 font-bold py-3 cursor-pointer rounded-2xl hover:bg-purple-700 transition"
           >
             View Menu
-          </motion.button>
+          </motion.a>
 
-          <motion.button
+          <motion.a
             whileHover={{ y: -4 }}
             whileTap={{ scale: 0.95 }}
+            href="https://wa.me/233550280582"
             className="md:mt-8 text-black font-bold cursor-pointer bg-white px-8 py-3 rounded-2xl hover:bg-green-500 hover:text-white transition"
           >
             Order Now (WhatsApp)
-          </motion.button>
+          </motion.a>
         </motion.div>
       </div>
     </section>
