@@ -2,7 +2,7 @@ const snacks = [
   {
     name: "CAKE PARFAIT",
     image: "/images/products/cakeparfait.webp",
-    price: "GH₵ 55",
+    price: "GH₵ 60",
     details: "Available in stock",
   },
   {
