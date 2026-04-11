@@ -6,6 +6,12 @@ const snacks = [
     details: "Available in stock",
   },
   {
+    name: "PARFAIT COMBO",
+    image: "/images/products/parfaitpackage.jpeg",
+    price: "GH₵ 200",
+    details: "Available in stock",
+  },
+  {
     name: "CAKE SlICE",
     image: "/images/products/cakeslice.webp",
     price: "GH₵ 50",
