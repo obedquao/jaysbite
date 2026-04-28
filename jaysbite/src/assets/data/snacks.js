@@ -29,6 +29,24 @@ const snacks = [
     price: "GH₵ 40",
     details: "Available in stock",
   },
+  {
+    name: "Chocolate Piped Cookies",
+    image: "/images/products/Chocolatepiped.jpeg",
+    price: "GH₵ 40",
+    details: "Available in stock",
+  },
+  {
+    name: "Cinnamon Piped Cookies",
+    image: "/images/products/Cinnamonpiped.jpeg",
+    price: "GH₵ 40",
+    details: "Available in stock",
+  },
+  {
+    name: "Vanilla Piped Cookies",
+    image: "/images/products/Vanillapiped.jpeg",
+    price: "GH₵ 40",
+    details: "Available in stock",
+  },
 
   {
     name: "Doughnuts (12 pieces)",
