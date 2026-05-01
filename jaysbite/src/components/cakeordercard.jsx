@@ -3,34 +3,34 @@ import React, { useState } from "react";
 const CakeOrderCard = () => {
   const PRICE_MATRIX = {
     "5 inches": {
-      "1 layer": 150,
-      "2 layers": 250,
-      "3 layers": 350,
-      "4 layers": 450,
+      "1 layer": 170,
+      "2 layers": 300,
+      "3 layers": 500,
+      "4 layers": 700,
     },
     "6 inches": {
-      "1 layer": 250,
-      "2 layers": 350,
-      "3 layers": 550,
-      "4 layers": 650,
+      "1 layer": 300,
+      "2 layers": 550,
+      "3 layers": 750,
+      "4 layers": 950,
     },
     "7 inches": {
-      "1 layer": 300,
-      "2 layers": 450,
-      "3 layers": 650,
-      "4 layers": 750,
+      "1 layer": 350,
+      "2 layers": 650,
+      "3 layers": 850,
+      "4 layers": 1100,
     },
     "8 inches": {
-      "1 layer": 450,
-      "2 layers": 600,
-      "3 layers": 800,
-      "4 layers": 1050,
+      "1 layer": 400,
+      "2 layers": 750,
+      "3 layers": 950,
+      "4 layers": 1250,
     },
     "10 inches": {
-      "1 layer": 600,
+      "1 layer": 500,
       "2 layers": 900,
-      "3 layers": 1250,
-      "4 layers": 1500,
+      "3 layers": 1200,
+      "4 layers": 1450,
     },
   };
 
