@@ -59,5 +59,35 @@ const randomInspo = [
     price: "GH₵ 750",
     details: "Available Only On Pre-Order",
   },
+  {
+    name: "1 color Cupcake Bouquet",
+    image: "/images/products/cupcakebouquet.webp",
+    price: "GH₵ 450",
+    details: "Available Only On Pre-Order",
+  },
+  {
+    name: "Multiple colors cupcake bouquet",
+    image: "/images/products/multicupcakebouquet.webp",
+    price: "GH₵ 500",
+    details: "Available Only On Pre-Order",
+  },
+  {
+    name: "12x4 rectangle Cake ",
+    image: "/images/products/rectanglecake.webp",
+    price: "GH₵ 750",
+    details: "Available Only On Pre-Order",
+  },
+  {
+    name: "1 layer wafer cake ",
+    image: "/images/products/wafercake500.webp",
+    price: "GH₵ 500",
+    details: "Available Only On Pre-Order",
+  },
+  {
+    name: "8x4 rectanle cake  ",
+    image: "/images/products/rectanglecake450.webp",
+    price: "GH₵ 450",
+    details: "Available Only On Pre-Order",
+  },
 ];
 export default randomInspo;
