@@ -59,18 +59,7 @@ const randomInspo = [
     price: "GH₵ 750",
     details: "Available Only On Pre-Order",
   },
-  {
-    name: "1 color Cupcake Bouquet",
-    image: "/images/products/cupcakebouquet.webp",
-    price: "GH₵ 450",
-    details: "Available Only On Pre-Order",
-  },
-  {
-    name: "Multiple colors cupcake bouquet",
-    image: "/images/products/multicupcakebouquet.webp",
-    price: "GH₵ 500",
-    details: "Available Only On Pre-Order",
-  },
+
   {
     name: "12x4 rectangle Cake ",
     image: "/images/products/rectanglecake.webp",
