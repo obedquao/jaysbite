@@ -3,8 +3,8 @@ import React, { useState } from "react";
 const CakeOrderCard = () => {
   const PRICE_MATRIX = {
     "5 inches": {
-      "1 layer": 170,
-      "2 layers": 300,
+      "1 layer": 195,
+      "2 layers": 350,
       "3 layers": 500,
       "4 layers": 700,
     },
