@@ -8,6 +8,7 @@ import cupcakeData from "../assets/data/cupcake";
 import bentoPackage from "../assets/data/bentopackage";
 import kids from "../assets/data/kids";
 import randomInspo from "../assets/data/random";
+import ItemIncrement from "../components/itemincrement";
 
 import { motion } from "motion/react";
 
@@ -92,7 +93,7 @@ export default function Menu() {
           >
             {snacks.map((itemData) => (
               <motion.div variants={item} key={itemData.name}>
-                <CakeItem
+                <ItemIncrement
                   name={itemData.name}
                   image={itemData.image}
                   price={itemData.price}
