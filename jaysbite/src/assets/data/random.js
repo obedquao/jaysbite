@@ -102,5 +102,24 @@ const randomInspo = [
     price: "GH₵ 600",
     details: "Available Only On Pre-Order",
   },
+  {
+    name: "Black Ribbon 5 inches 2 layer ",
+    image: "/images/products/blackribbon.webp",
+    price: "GH₵ 350",
+    details: "Available Only On Pre-Order",
+  },
+
+  {
+    name: "Minimalist Cake 6 inches 1 layer ",
+    image: "/images/products/pink300.webp",
+    price: "GH₵ 300",
+    details: "Available Only On Pre-Order",
+  },
+  {
+    name: "Feminine Happy Birthday 7 Inches 1 layer",
+    image: "/images/products/pink7.webp",
+    price: "GH₵ 350",
+    details: "Available Only On Pre-Order",
+  },
 ];
 export default randomInspo;
